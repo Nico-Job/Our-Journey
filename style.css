@@ -114,5 +114,15 @@ img{
     border:10px solid #AAAAAA;
 }
 img:hover{
-    transform:scale(1.2);
+    transform:scale(0.95);
+}
+
+#Contact
+{
+    width: 100%
+}
+.Mail
+{
+    color: snow;
+        text-shadow:none;
 }
