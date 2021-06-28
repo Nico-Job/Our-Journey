@@ -23,7 +23,7 @@ body {
     background: linear-gradient(lawngreen 0%, red 100%);
     display: table;
     width: 100%;
-    height: 100%;
+    height: 80%;
     z-index: 9()
 }
 
@@ -89,40 +89,45 @@ p {
 }
 
 html {
-    scroll-behavior:smooth;
+    scroll-behavior: smooth;
 }
 
 #myname {
     font-family: 'Press Start 2P', cursive;
 }
 
-a
-{
-    text-decoration:underline;
+a {
+    text-decoration: underline;
 }
 
-.website:hover{
+.website:hover {
     color: lawngreen;
 }
-#RRP{
-    width:100%;
-    height:800 px;
+
+#RRP {
+    width: 100%;
+    height: 800 px;
     background-color: white;
 }
-img{
+
+img {
     transition: transform.2s;
-    border:10px solid #AAAAAA;
-}
-img:hover{
-    transform:scale(0.95);
+    border: 10px solid #AAAAAA;
 }
 
-#Contact
-{
+img:hover {
+    transform: scale(0.95);
+}
+
+#Contact {
     width: 100%
 }
-.Mail
-{
+
+.Mail {
     color: snow;
-        text-shadow:none;
+    text-shadow: none;
+}
+
+.active {
+    background-color: cornflowerblue;
 }
